@@ -15,11 +15,12 @@
 1. Add the [reactotronConfig.js](https://github.com/prasadhewage/reactotronRN-redux/blob/master/ReactotronConfig.js) file to the root(if you have config folder in root, then to it.)
 2. Update the redux store as below
 
-Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
+   Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
 
-Update the redux store using below code
-`const middleware = applyMiddleware(ReduxThunk);`
-`const store = Reactotron.createStore(reducers, middleware);`
+   Update the redux store using below code
+
+   `const middleware = applyMiddleware(ReduxThunk);`
+   `const store = Reactotron.createStore(reducers, middleware);`
 
 3. Keep the reactotron app open, and build the app.
 4. once the app is build run `adb reverse tcp:9090 tcp:9090` command in the cli.
