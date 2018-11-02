@@ -3,9 +3,13 @@ import {  reactotronRedux as reduxPlugin } from 'reactotron-redux';
 
 const reactotron = Reactotron
   .configure({
-    name: 'O2A APP'
+    name: 'O2A APP' // change app name 
   }) // controls connection & communication settings
-  .use(reduxPlugin())
-  .connect(); // let's connect!
+  .use(reduxPlugin());
+
+  if (__DEV__) {
+    reactotron.connect(); // let's connect!
+    Reactotron.clear();
+  }
 
 export default reactotron;
