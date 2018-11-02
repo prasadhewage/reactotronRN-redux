@@ -3,7 +3,7 @@
 #### how to configure reactotron with react native and redux.
 
 ### Prerequisite
-* Add below packages and run npm i --save-dev
+* Add below packages and run `npm i --save-dev`
 
 `"reactotron-react-native": "^1.14.0",`
 `"redux-devtools-extension": "^2.13.2",`
