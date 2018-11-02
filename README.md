@@ -25,3 +25,5 @@
 3. Keep the reactotron app open, and build the app.
 4. once the app is build run `adb reverse tcp:9090 tcp:9090` command in the cli.
 4. reload the app and the App should be connected to reactotron now.
+
+Read more about reactotron from [here](https://github.com/infinitered/reactotron).
