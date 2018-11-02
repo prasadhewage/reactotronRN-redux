@@ -16,6 +16,7 @@
 2. Update the redux store as below
 
 Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
+
 Update the redux store using below code
 `const middleware = applyMiddleware(ReduxThunk);`
 `const store = Reactotron.createStore(reducers, middleware);`
