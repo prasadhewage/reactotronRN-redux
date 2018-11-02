@@ -12,12 +12,12 @@
 
 ### Steps to config reactotron in the app
 
-1. Add the reactotronConfig.js file to the root(if you have config folder in root, then to it.)
+1. Add the [reactotronConfig.js](https://github.com/prasadhewage/reactotronRN-redux/blob/master/ReactotronConfig.js) file to the root(if you have config folder in root, then to it.)
 2. Update the redux store as below
-    ... Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
-    ... Update teh redux store using below code
-    ... `const middleware = applyMiddleware(ReduxThunk);`
-    ... `const store = Reactotron.createStore(reducers, middleware);`
+   Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
+   Update the redux store using below code
+   `const middleware = applyMiddleware(ReduxThunk);`
+   `const store = Reactotron.createStore(reducers, middleware);`
 3. Keep the reactotron app open, and build the app.
-4. once the app is build run `adb reverse tcp:9090 tcp:9090` command in the cli and reload the app.
-5. App should be connected to reactotron now.
+4. once the app is build run `adb reverse tcp:9090 tcp:9090` command in the cli.
+4. reload the app and the App should be connected to reactotron now.
