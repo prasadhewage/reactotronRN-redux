@@ -3,12 +3,12 @@
 #### how to configure reactotron with react native and redux.
 
 ### Prerequisite
-⋅⋅* Add below packages and run npm i --save-dev
+* Add below packages and run npm i --save-dev
 
-"reactotron-react-native": "^1.14.0",
-"redux-devtools-extension": "^2.13.2",
+`"reactotron-react-native": "^1.14.0",`
+`"redux-devtools-extension": "^2.13.2",`
 
-⋅⋅* Get the desktop app from [here](https://github.com/infinitered/reactotron/releases/tag/v2.1.2)
+* Get the desktop app from [here](https://github.com/infinitered/reactotron/releases/tag/v2.1.2)
 
 ### Steps to config reactotron in the app
 
