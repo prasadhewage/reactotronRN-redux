@@ -15,7 +15,7 @@
 1. Add the [reactotronConfig.js](https://github.com/prasadhewage/reactotronRN-redux/blob/master/ReactotronConfig.js) file to the root(if you have config folder in root, then to it.)
 2. Update the redux store as below
 
-   Import reactotronconfig file `import Reactotron from '../../ReactotronConfig';`
+   Import reactotronconfig file `import Reactotron from '<path>/<to>/ReactotronConfig';`
 
    Update the redux store using below code
 
